@@ -1,3 +1,11 @@
+## Forked version of Keycloak JavaScript Adapter 
+
+* Used in Find My Fedora App
+
+* Modifies keycloak.js to add an *updateTokenCordova* function which updates Token using cordova plugin - [Cordova Advanced HTTP](https://github.com/silkimen/cordova-plugin-advanced-http) - to make the POST request natively so it can run successfully in the background in Android and iOS
+
+
+
 Keycloak JavaScript Adapter
 ===========================
 
